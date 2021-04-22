@@ -11,8 +11,8 @@
         android:layout_height="120dp"
         android:layout_centerInParent="true"
         android:contentDescription="@string/app_name"
-        android:scaleType="centerCrop"
-        app:srcCompat="@mipmap/ic_launcher" />
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ic_application_logo" />
 
     <LinearLayout
         android:id="@+id/footer"
@@ -35,11 +35,12 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="249dp"
-            android:layout_height="wrap_content"
+            android:id="@+id/brandname"
+            android:layout_width="250dp"
+            android:layout_height="64dp"
+            android:adjustViewBounds="true"
             android:contentDescription="@string/brand_name"
-            android:scaleType="centerCrop"
+            android:scaleType="centerInside"
             app:srcCompat="@drawable/ic_brand_name_dev" />
 
     </LinearLayout>
