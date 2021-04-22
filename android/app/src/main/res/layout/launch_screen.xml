@@ -36,11 +36,11 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
             android:contentDescription="@string/brand_name"
-            android:scaleType="center"
-            app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_brand_name_dev" />
 
     </LinearLayout>
 
