@@ -9,7 +9,7 @@
  */
 
 import React, {useEffect} from 'react';
-import {ScrollView, StyleSheet, useColorScheme, View} from 'react-native';
+import {ScrollView, StyleSheet, useColorScheme, View, Text} from 'react-native';
 
 import {
   Colors,
@@ -23,7 +23,7 @@ import {
   ApplicationProvider,
   Layout,
   IconRegistry,
-  Text,
+  Text as UIText,
 } from '@ui-kitten/components';
 import {EvaIconsPack} from '@ui-kitten/eva-icons';
 import * as eva from '@eva-design/eva';
@@ -36,15 +36,7 @@ const Section: React.FC<{
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
+      <UIText style={[styles.sectionTitle]}>{title}</UIText>
       <Text
         style={[
           styles.sectionDescription,
