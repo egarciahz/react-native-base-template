@@ -12,7 +12,7 @@
         android:layout_centerInParent="true"
         android:contentDescription="@string/app_name"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/ic_application_logo" />
+        android:src="@drawable/ic_application_logo" />
 
     <LinearLayout
         android:id="@+id/footer"
@@ -41,7 +41,7 @@
             android:adjustViewBounds="true"
             android:contentDescription="@string/brand_name"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/ic_brand_name_dev" />
+            android:src="@drawable/ic_brand_name_dev" />
 
     </LinearLayout>
 

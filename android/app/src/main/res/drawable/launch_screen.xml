@@ -3,7 +3,7 @@
     android:height="240dp" >
     <item android:drawable="@color/splash_background"/>
     <item>
-        <bitmap android:src="@mipmap/ic_launcher"
+        <bitmap android:src="@drawable/ic_application_logo"
             android:gravity="center" />
     </item>
 </layer-list>
