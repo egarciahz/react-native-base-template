@@ -16,7 +16,7 @@ public class SplashManager {
       @Override
       public void run() {
         if(!activity.isFinishing()) {
-          msDialog = new Dialog(activity, R.style.AppTheme);
+          msDialog = new Dialog(activity, R.style.LaunchScreenTheme);
           msDialog.setContentView(R.layout.launch_screen);
           msDialog.setCancelable(false);
 
